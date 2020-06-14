@@ -1,0 +1,29 @@
+{
+  "name": "gitproxy",
+  "version": "1.0.0",
+  "description": "A Node.js package for running git over a proxy",
+  "main": "./cli.js",
+  "bin": {
+    "gitproxy": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimauger/gitproxy.git"
+  },
+  "keywords": [
+    "Git",
+    "Proxy",
+    "GitProxy",
+    "GitHub"
+  ],
+  "author": "Mark Auger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swimauger/gitproxy/issues"
+  },
+  "homepage": "https://github.com/swimauger/gitproxy#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0"
+  }
+}
