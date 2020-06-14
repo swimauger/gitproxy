@@ -13,7 +13,7 @@ Node.js package built for running git commands over a proxy
 ## Installation
 
 **Install gitproxy**
-`npm install gitproxy -g`
+`npm install @swimauger/gitproxy -g`
 
 ## Usage
 ```
