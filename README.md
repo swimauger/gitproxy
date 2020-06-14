@@ -1,7 +1,7 @@
 # GitProxy Node.js Package
 
-![](https://img.shields.io/npm/dw/gitproxy?style=for-the-badge)
-![](https://img.shields.io/npm/v/gitproxy?style=for-the-badge)
+![](https://img.shields.io/npm/dw/@swimauger/gitproxy?style=for-the-badge)
+![](https://img.shields.io/npm/v/@swimauger/gitproxy?style=for-the-badge)
 ![](https://img.shields.io/github/license/swimauger/gitproxy?style=for-the-badge)
 
 Node.js package built for running git commands over a proxy
