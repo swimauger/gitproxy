@@ -29,25 +29,25 @@ Node.js package built for running git commands over a proxy
 ```
 ## Examples
 
-**Running normal git**
+### Running normal git
 ```Shell
     gitproxy push origin master
 ```
-### Treat gitproxy like a normal git command. For instance `git add .` would be `gitproxy add .`
+Treat gitproxy like a normal git command. For instance `git add .` would be `gitproxy add .`
 
 #
 
-**GitProxy can also be used interchangably with normal Git**
+### GitProxy can also be used interchangably with normal Git
 ```Shell
     git add -A
     git commit -m "A very urgent test commit"
     gitproxy push origin master
 ```
-### GitProxy mostly serves a purpose for pushing to repos and such. For example `gitproxy status` does not really serve any purpose over the normal `git status`. That said, feel free to use however you like : )
+GitProxy mostly serves a purpose for pushing to repos and such. For example `gitproxy status` does not really serve any purpose over the normal `git status`. That said, feel free to use however you like : )
 
 #
 
-**Edit git config proxies**
+### Edit git config proxies
 ```Shell
     # Open up a new https proxy in the git config
     gitproxy -u https
@@ -55,11 +55,11 @@ Node.js package built for running git commands over a proxy
     # Delete the http proxy in the git config
     gitproxy -d http
 ```
-### GitProxy can set a new random proxy for you in the gitconfig; however, by running `gitproxy` as a git command, it could overwrite the old proxy with a new one under the conditions that the repo is using the same SSL protocol
+GitProxy can set a new random proxy for you in the gitconfig; however, by running `gitproxy` as a git command, it could overwrite the old proxy with a new one under the conditions that the repo is using the same SSL protocol
 
 #
 
-**List git config proxies**
+### List git config proxies
 ```Shell
       gitproxy -l
 
@@ -67,12 +67,12 @@ Node.js package built for running git commands over a proxy
 
     gitproxy --list
 ```
-### `gitproxy -l` will list open proxies on either http or https and if there are any.
+`gitproxy -l` will list open proxies on either http or https and if there are any.
 
 #
 
-**Help**
+### Help
 ```Shell
     gitproxy -h
 ```
-### If you are ever stuck refer to the help menu with `gitproxy -h` or `gitproxy --help`. You can also see the different flag names there are.
+If you are ever stuck refer to the help menu with `gitproxy -h` or `gitproxy --help`. You can also see the different flag names there are.
