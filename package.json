@@ -1,5 +1,5 @@
 {
-  "name": "gitproxy",
+  "name": "@swimauger/gitproxy",
   "version": "1.0.0",
   "description": "A Node.js package for running git over a proxy",
   "main": "./cli.js",
